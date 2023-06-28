@@ -1,0 +1,41 @@
+.ugr-logo img {
+  width: 50px;
+}
+
+.form-control-fixed {
+  width: 600px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: unset;
+    align-items: center;
+  }
+
+  .shopping-cart img {
+    width: 30px;
+  }
+
+  .search-icon {
+    width: 20px;
+  }
+
+  .btn-outline-success {
+    border: none;
+  }
+
+  .btn-outline-success:hover {
+    background-color: #fff;
+  }
+
+  .banner-box {
+    width: 100%;
+    height: 600px;
+  }
+}
